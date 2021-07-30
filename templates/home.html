@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrology</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Courgette&family=Fira+Sans+Extra+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='front.css') }}">
+    <!-- <link rel="stylesheet" href="front.css"> -->
+   
+</head>
+<body>
+    
+        
+    <div class="box" id="box1">
+   
+       
+        <div class="navbar">
+            <div class="left">
+                <h1 class="col">Astrology</h1>
+                <ul>
+                    <li class="col"><a href="/home">Home</a></li>
+                    <li class="col"><a href="/more">More About Us</a></li>
+                    <li class="col"><a href="/contact">Contact US</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <a href="/contact"><button class="btn col font2">Appointment</button></a> 
+            </div>
+        </div>
+        
+            
+        <div class="intro">
+            <div>
+            <img class="img" src="{{ url_for('static', filename='profilepic.png') }}" alt="error404">
+            <!-- <img class="img" src="profilepic.png" alt="error404"> -->
+        </div> 
+           <h1 class="col font1">Mr\Mrs.Astrologer</h1>
+           <h3 class="col font2"> I'm an astrologer Lorem, ipsum dolor sit amet consectetur adipisicing elit. In eveniet similique aut mollitia. A, minus! In dolores quidem facere vitae eaque est quisquam cupiditate dicta ab excepturi sint deserunt provident iusto similique, voluptatem recusandae tempora at totam quae sequi quos. Culpa nisi suscipit nihil! Placeat itaque beatae adipisci id, dolores sequi dicta blanditiis aut, fugiat iste ullam nulla quasi facere. Quod magnam doloribus atque aut distinctio obcaecati totam, provident ut. Hic enim corporis eos voluptatum excepturi distinctio quaerat illo labore unde sunt! Ut tempora incidunt totam! Consectetur quaerat non magni rerum doloremque! Iure unde eveniet libero quod molestias, iste aliquam.</h3>
+        </div>
+       
+    </div>
+    
+    <div class="box" id="box2" style="background-color:  rgb(17, 12, 31);;"> 
+      
+            
+        <h1 class="col font1" style="text-align: center;">About Us</h1>
+        <h3 class="col font2"> I'm an astrologer Lorem, ipsum dolor sit amet consectetur adipisicing elit. In eveniet similique aut mollitia. A, minus! In dolores quidem facere vitae eaque est quisquam cupiditate dicta ab excepturi sint deserunt provident iusto similique, voluptatem recusandae tempora at totam quae sequi quos. Culpa nisi suscipit nihil! Placeat itaque beatae adipisci id, dolores sequi dicta blanditiis aut, fugiat iste ullam nulla quasi facere. Quod magnam doloribus atque aut distinctio obcaecati totam, provident ut. Hic enim corporis eos voluptatum excepturi distinctio quaerat illo labore unde sunt! Ut tempora incidunt totam! Consectetur quaerat non magni rerum doloremque! Iure unde eveniet libero quod molestias, iste aliquam.</h3>
+        <h3 class="col font2">To Read more about us </h3>
+        <a href="/more">
+            <button class="btn1 col font2">click here</button>
+        </a>
+        
+    
+        </div><hr>
+        
+    <div class="box" id="box3">
+        <h4 class="font2 col">
+    
+            copyright -RupinVijan
+        </h4>
+    
+     </div>
+    
+    
+    
+</body>
+</html>

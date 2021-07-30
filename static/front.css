@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(17, 12, 31);
+
+}
+.font1{
+    font-family: 'Bangers', cursive;
+}
+.font2{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+.col{
+    color: white;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+
+}
+#box1{
+    margin: -10px;
+    margin-top: -20px;
+    height: 550px;
+    background-image: url('Ozs.gif');
+    background-repeat: no-repeat;
+    background-size: 1550px 600px;
+    
+}
+#box11{
+    margin: -10px;
+    margin-top: -20px;
+    /* height: 450px; */
+    /* background-image: url('tenor.gif');
+    background-repeat: no-repeat;
+    background-size: 1550px 100px; */
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.left h1{
+    font-family: 'Courgette', cursive;
+    margin-right: 100px;
+}
+.navbar ul li{
+    margin-top: 20px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    margin-left: 15px;
+    font-weight: bolder;
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    margin-left: 15px;
+    font-weight: bolder;
+    list-style: none;
+    display: inline-block;
+}
+.about {
+    /* margin-top: 20px; */
+    color: white;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    /* margin-left: 15px; */
+    font-weight: bolder;
+    list-style: square;
+    /* display: inline-block; */
+}
+.navbar ul li a:hover{
+    font-size: larger;
+    cursor: pointer;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro h3{
+    width:900px;
+}
+#box2 h3{
+    width:900px;
+}
+#box1 h3{
+    width:900px;
+}
+.img{
+    height: 200px;
+    width:300px;
+}
+#box2{
+    
+    justify-content: center;
+    align-items: center;
+}
+.inp{
+    width: 700px;
+    font-size: xx-large;
+    background-image: url('tenor.gif');
+    border:  none;
+    justify-content: center;
+    align-items: center;
+}
+#box3 h4{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: red; */
+
+}
+.btn{
+    background-color: rgb(17, 12, 31);
+    background-image: url('Ozs.gif');
+    margin: 20px;
+    height: 50px;
+    width:100px
+}
+.btn1{
+    background-color: rgb(17, 12, 31);
+    margin: 20px;
+    height: 40px;
+    width:70px
+}
+
+.btn:hover{
+    height: 65px;
+    width:125px;
+}
+.btn1:hover{
+    height: 50px;
+    width:80px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrology</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Courgette&family=Fira+Sans+Extra+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='front.css') }}">
+    <!-- <link rel="stylesheet" href="front.css"> -->
+   
+</head>
+{% set active_link = url_for('static', filename='tenor.gif')  -%}
+<body style=" background-image: url('{{ active_link }}');
+background-repeat: no-repeat;
+background-size: 1550px 1000px;">
+    
+        
+    <div class="box" id="box11">
+   
+       
+        <div class="navbar">
+            <div class="left">
+                <h1 class="col">Astrology</h1>
+                <ul>
+                    <li class="col"><a href="/home">Home</a></li>
+                    <li class="col"><a href="/more">More About Us</a></li>
+                    <li class="col"><a href="/contact">Contact US</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <a href="/contact"><button class="btn col font2">Appointment</button></a> 
+            </div>
+        </div>
+    
+       
+    </div>
+    
+    <div class="box" id="box2" > 
+      
+        <img src="{{ url_for('static', filename='download.jpg') }} " alt="">
+        <h1 class="col font1" style="text-align: center;">Enter your Details</h1>
+        <form action="/contact" method="POST">
+
+            <div>
+                <input type="text" class="inp col font2" placeholder="Name" name="name">
+            </div><hr>
+            <div>
+            <input type="email" class="inp col font2" placeholder="Email" name="email">
+        </div><hr>
+        <div>
+            <input type="text" class="inp col font2" placeholder="Phone" name="phone">
+        </div><hr>
+        <div>
+            <input type="text" class="inp col font2" style=" height: 200px;" placeholder="message" name="message">
+        </div><hr>
+        <div>
+            <input type="date" class="inp col font2" name="date" id="date">
+        </div><hr>
+        <button class="btn col font1">SUBMIT</button>
+    </div><hr>
+</form>
+    
+    <div class="box" id="box3" style="background-color:  rgb(17, 12, 31);">
+        <h4 class="font2 col">
+            
+            copyright -RupinVijan
+        </h4>
+    
+     </div>
+    
+    
+    
+</body>
+</html>
